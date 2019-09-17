@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/* ---------------------------------------------------------------- *
+	個別CSS
+ * ---------------------------------------------------------------- */
+
+#form .cb {
+	left: 145px;
+	padding: 6px;
+}
+#form .ta {
+	position:absolute;
+	top:142px;
+	left:280px;
+	width:100px;
+}
+#form .ta:nth-child(2) {
+	top:202px;
+	left:262px;
+}
+#form .pd{
+	position:absolute;
+	left:260px;
+	top:163px;
+	width:150px;
+}

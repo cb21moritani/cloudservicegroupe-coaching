@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/* ---------------------------------------------------------------- *
+	個別CSS
+ * ---------------------------------------------------------------- */
+
+#form .cb {
+	left: 150px;
+	padding: 6px;
+}
+#form .cb:nth-child(1) {
+	top:78px;
+}
+#form .cb:nth-child(2) {
+	top:97px;
+}
+#form .cb:nth-child(3) {
+	top:117px;
+}
+#form .cb:nth-child(4) {
+	top:137px;
+}
+#form .cb:nth-child(5) {
+	top:173px;
+}
+#form .cb:nth-child(6) {
+	top:193px;
+}
+#form .cb:nth-child(7) {
+	top:213px;
+}
+#form .cb:nth-child(8) {
+	top:249px;
+}
+#form .cb:nth-child(9) {
+	top:285px;
+}
+#form .cb:nth-child(10) {
+	top:305px;
+}

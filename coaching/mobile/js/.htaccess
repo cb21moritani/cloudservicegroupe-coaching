@@ -1,0 +1,14 @@
+AddType text/cache-manifest .appcache
+
+RewriteEngine on
+RewriteCond %{HTTP:Accept-Encoding} gzip
+RewriteCond %{REQUEST_FILENAME} !Å_.gz$
+RewriteCond %{REQUEST_FILENAME}Å_.gz -s
+RewriteRule .+ %{REQUEST_URI}.gz
+<files *.js.gz>
+AddType "text/javascript; charset=utf-8" .gz
+</files>
+<files *.json.gz>
+AddType "application/json; charset=utf-8" .gz
+</files>
+AddEncoding x-gzip .gz

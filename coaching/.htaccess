@@ -1,0 +1,6 @@
+# BASIC認証
+AuthUserFile /data/itohco/ps/.htpasswd_cb21
+AuthGroupFile /dev/null
+AuthName "Member Only"
+AuthType Basic
+require valid-user

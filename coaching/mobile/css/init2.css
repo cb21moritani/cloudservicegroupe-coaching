@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+/* ---------------------------------------------------------------- *
+	SVGアニメーション用CSS
+ * ---------------------------------------------------------------- */
+html {
+	font-size: 100%;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+body {
+	width: 100%;
+	height: 100%;
+	margin:0;
+	padding:0;
+	background:#efefef;
+}
+#wrapper {
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	background:#efefef;
+}
+#container {
+	width: 640px;
+	/*height: 555px;*/
+	overflow: hidden;
+	position:absolute;
+	top:40%;
+	left:50%;
+	margin:-260px 0 0 -320px;
+	background: url(/coaching/mobile/img/loading.png) center center no-repeat;
+}
+#cont {
+	width: 640px;
+	height: 555px;
+}
+#form {
+	position: absolute;
+	z-index: 1;
+}
+#form .cb {
+	position: absolute;
+	left: 88px;
+	padding: 6px;
+	line-height: 1;
+}
+.pdfBtn{
+text-align:center;
+margin:15px;
+}
+.pdfInfo{
+color:#333333;
+font-size:12px;
+text-align:center;
+margin:15px auto;
+}
+

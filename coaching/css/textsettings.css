@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+/* ================================================================ *
+	テキスト書式設定用 CSS
+	この CSS では共通のテキスト設定を行っています。本文記事
+	およびコメントを参考に，必要に応じて変更してください。
+ * ================================================================ */
+
+/* ---------------------------------------------------------------- *
+	全体に関わる設定
+ * ---------------------------------------------------------------- */
+
+body {
+	/*
+ * This Stylesheet was based on YUI Library's Fonts CSS.
+ * > Copyright (c) 2007, Yahoo! Inc. All rights reserved.
+ * > Code licensed under the BSD License:
+ * > http://developer.yahoo.net/yui/license.txt
+ * > http://developer.yahoo.com/yui/fonts/
+ * Note: この部分の指定では、Yahoo! UI Library の Fonts CSS を利用して、各種ブラウザのフォントサイズの差をほぼなくす設定を行っています。ほとんどのモダンブラウザで、基本のフォントサイズを13pxと指定し、pixel単位で指定したときに IE でサイズが変更されない不具合を埋めるためにプロパティの先頭に*を付けるハック(ブラウザのバグを利用したinvalidなハック)を利用して IE7がsmall, IE5〜6 が x-small を読み込むように設定することで、基本のフォントサイズがほぼ揃います。
+ */
+  font-size: 12px;
+
+ /* *font-size: small;
+  *font: x-small;*/
+}
+
+body {
+   /* 必要ならば，本文のテキストに関する設定をしてください */
+  font-family: Arial, "ヒラギノ角ゴ Pro W3", HiraKakuPro-W3, sans-serif;
+  color: #333333;
+}
+
+
+
+a,
+a:link {
+	/* 必要ならば，リンクテキストに関する設定をしてください */
+  color: #336666;
+	text-decoration: none;
+}
+
+a:visited {
+	/* 必要ならば，訪問済みリンクテキストに関する設定をしてください */
+  color:#0099CC;
+}
+
+a:hover {
+	/* 必要ならば，マウスオーバー時のリンクテキストに関する設定をしてください */
+  color: #003399;
+}
+
+a:active {
+	/* 必要ならば，アクティブ時のリンクテキストに関する設定をしてください */
+  color: #0099FF;
+	text-decoration: underline;
+}
+
+p {
+	/* 基本的なテキスト要素の行送りを設定してください */
+  line-height: 1.7;
+}
+
+h1 {
+  font-size: 125%;
+	float: left;
+	height: 50px;
+	width: 220px;
+}
+body .fs11 {
+	font-size: 11px;
+}
+body .fs14 {
+	font-size: 14px;
+}
+body .lh2 {
+	line-height: 2em;
+}
+
+.red {
+color:#CC3300;
+}
+.txtS {
+font-size:0.8em;}
+
+
+
+

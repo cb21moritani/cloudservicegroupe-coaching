@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+#form .cb {
+	left: 167px;
+	padding: 6px;
+}
+#form .cb:nth-child(1){
+top:108px;
+}
+#form .cb:nth-child(2){
+top:135px;
+}
+#form .cb:nth-child(3){
+top:196px;
+}
+#form .cb:nth-child(4){
+top:224px;
+}
+#form .cb:nth-child(5){
+top:250px;
+}
+#form .cb:nth-child(6){
+top:276px;
+}
+#form .cb:nth-child(7){
+top:304px;
+}
+#form .cb:nth-child(8){
+top:330px;
+}
+#form .cb:nth-child(9){
+top:357px;
+}
+#form .cb:nth-child(10){
+top:383px;
+}
+

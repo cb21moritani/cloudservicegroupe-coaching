@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+/* ---------------------------------------------------------------- *
+	蛟句挨CSS
+ * ---------------------------------------------------------------- */
+
+#form .ta {
+	position:absolute;
+	left:75px;
+	width:500px;
+}
+#form .ta:nth-child(1) {
+	top:104px;
+}
+#form .ta:nth-child(2) {
+	top:128px;
+}
+#form .ta:nth-child(3) {
+	top:152px;
+}
+#form .ta:nth-child(4) {
+	top:176px;
+}
+#form .ta:nth-child(5) {
+	top:200px;
+}
+#form .pd{
+	position:absolute;
+	width:230px;
+}
+#form .pd:nth-child(1){
+	top:131px;
+	left:80px;
+}
+#form .pd:nth-child(2){
+	top:131px;
+	left:350px;
+}
+#form .pd:nth-child(3){
+	top:180px;
+	left:80px;
+}
+#form .pd:nth-child(4){
+	top:180px;
+	left:350px;
+}
+#form .pd:nth-child(5){
+	top:227px;
+	left:80px;
+}
+#form .pd:nth-child(6){
+	top:227px;
+	left:350px;
+}
+#form .pd:nth-child(7){
+	top:275px;
+	left:80px;
+}
+#form .pd:nth-child(8){
+	top:275px;
+	left:350px;
+}
+#form .taL {
+	position:absolute;
+	left:75px;
+	width:560px;
+	height:3em;
+	resize: none;
+}
+#form .taL{
+	position:absolute;
+	left:32px;
+	width:570px;
+	height:2.1em;
+}
+#form .taL:nth-child(1) {
+	top:170px;
+}
+#form .taL:nth-child(2) {
+	top:262px;
+}
+#form .pdta{
+	position:absolute;
+	left:91px;
+}
+#form .pdta:nth-child(1) {
+	top:166px;
+	height:20px;
+	width:173px;
+	padding:0;
+}
+#form .pdta:nth-child(2) {
+	top:190px;
+	width:515px;
+	height:41px;
+	resize:none;
+}

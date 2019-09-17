@@ -1,0 +1,17 @@
+CACHE MANIFEST
+
+# version 2014-03-03 v2
+
+CACHE:
+
+/coaching/js/jquery.js
+/coaching/mobile/css/init.css
+/coaching/mobile/js/viewport.js
+/coaching/mobile/js/runtime.js
+/coaching/mobile/js/init.js
+/coaching/mobile/img/bg01.png
+/coaching/mobile/img/bg02.png
+/coaching/mobile/img/loading.png
+
+NETWORK:
+*

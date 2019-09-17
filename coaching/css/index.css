@@ -1,0 +1,478 @@
+@charset "UTF-8";
+/*clearfix*/
+.clearfix {
+zoom: 1;
+}
+.clearfix:after {
+content: "";
+display: block;
+clear: both;
+}
+body {
+min-width: 310px;
+color: #333333;
+background: #FFFFFF;
+background-image:url(../images/bg.gif);
+padding:0 5px;
+}
+#wrapper{
+background: #ffffff;
+}
+#header {
+	background: url(../images/header.gif) no-repeat 0 0;
+}
+h1 {
+	width:100%;
+	max-width:356px;
+	height:auto;
+	float:none;
+}
+h1 img{
+	width:100%;
+	height:auto;
+}
+.corpLogo{
+margin-left:10px;
+}
+#header #logoArea {
+padding-top:4px;
+}
+#mainImg img{
+width:100%;
+height:auto;
+}
+#mainImg{
+margin-bottom:5px;
+}
+#topicPath{
+padding-left:5px;
+}
+/*#main*/
+#main{
+margin:5px 0;
+padding:0 5px;
+}
+.indexContInnerLeft,
+indexContInnerRight{
+margin-bottom:20px;
+}
+.title_coaching{
+margin-bottom:10px;
+}
+#staff{
+margin-bottom:10px;
+}
+.IndexList{
+margin-bottom:5px;
+line-height:20px;
+}
+.IndexList .IndexText{
+margin-left:10px;
+}
+.pagetop{
+text-align:right;
+}
+#flash{
+margin:10px 0;
+text-align:center;
+}
+.footer{
+text-align:center;
+padding:5px;
+background:#eee;
+}
+.footer p:nth-child(2){
+text-align:right;
+}
+
+
+/*640px以上ブレークポイント*/
+@media screen and (min-width: 640px) {
+body {
+min-width: 580px;
+padding:0 10px;
+}
+#mainImg{
+margin-bottom:10px;
+}
+#topicPath{
+padding-left:10px;
+}
+h1 {
+	float:left;
+}
+.corpLogo {
+float: right;
+margin:0;
+}
+/*#main*/
+#main{
+margin:10px 0;
+padding:0 10px;
+}
+.indexContInnerLeft,
+.indexContInnerRight{
+margin-bottom:20px;
+width:49%;
+}
+.indexContInnerLeft{
+float:left;
+}
+.indexContInnerRight{
+float:right;
+}
+.title_coaching{
+margin-bottom:20px;
+}
+#staff{
+margin-bottom:20px;
+}
+.IndexList{
+margin-bottom:10px;
+}
+#flash{
+clear:both;
+}
+.footer{
+text-align:center;
+padding:10px;
+}
+.footer p:nth-child(2){
+text-align:center;
+}
+}
+
+/*801px以上ブレークポイント*/
+@media screen and (min-width: 801px) {
+
+/*/alacarte/css/b_design.css
+***********************************/
+@media print {
+*html body {
+zoom: 70%;
+}
+}
+
+body {
+	color: #333333;
+	background: #FFFFFF;
+	background-image:url(../images/bg.gif);
+	padding:0;
+}
+
+#wrapper{
+width: 954px;
+margin: 0px auto 5px auto;
+padding:0 0 5px 0;
+background:url(../images/bg_line_bottom.gif) left bottom no-repeat;
+}
+
+#container {
+	width: 954px;
+	margin: 0 auto;
+	border-left: 1px solid #CCCCCC;
+	border-top-style: none;
+	clear: none;
+	float: none;
+	border-bottom: 1px solid #CCCCCC;
+	background-image:url(../images/bg_line_right.gif);
+	background-repeat: repeat-y;
+}
+#container:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 1px;
+	margin-right:5px;
+	overflow: hidden;
+}
+
+
+
+* html #container {
+	height: 1em;
+	overflow: visible;
+}
+.clearfix:after {
+content: ".";
+display: block;
+clear: both;
+height: 0;
+visibility: hidden;
+}
+
+.clearfix {
+min-height: 1px;
+}
+.clearfix { 
+overflow/*\**/:hidden\9; _overflow:visible;
+}
+* html .clearfix {
+height: 1px;
+/*\*//*/
+height: auto;
+overflow: hidden;
+/**/
+}
+
+#header {
+	background: #FFFFFF;
+	padding: 0;
+	float: left;
+	width: 948px;
+	margin: 0;
+	background: url(../images/header.gif) no-repeat top left;
+}
+#header #logoArea {
+	margin-top:4px;
+	height:67px;
+}
+
+#header .corpLogo {
+	float: right;
+	height: 66px;
+	width: 184px;
+}
+#main{
+padding:0 30px;
+}
+#mainImg {
+	width: 948px;
+	margin-bottom: 5px;
+	clear: both;
+	float: left;
+	background:url(../images/mainImage.jpg) no-repeat 0 0;
+	width:948px;
+	height:150px;
+}
+#mainImg img{
+display:none;
+}
+.indexContInnerLeft,
+.indexContInnerRight{
+width:48%;
+}
+#container #topicPath {
+	padding-left: 20px;
+	padding-top:3px;
+	font-size: 12px;
+	color:#666666;
+	clear: both;
+	float: left;
+	width: 928px;
+}
+
+#mainCont {
+ width:948px;
+ clear:both;
+ padding-top:3px;
+}
+
+iframe {
+	border-top: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 466px;
+}
+dl {
+	display:block;
+	line-height:1.7em;
+}
+
+.footer {
+	font-size: 9px;
+	text-align: right;
+	padding-top:30px;
+}
+
+
+h3 {
+	font-size: 17px;
+	font-weight:bold;
+	margin-top: 10px;
+	padding:3px 3px 3px 10px;
+	width:665px;
+}
+
+/*/alacarte/css/content.css
+***********************************/
+
+#topicPath a:link {
+  color:#336666;
+	text-decoration: none;
+}
+
+#topicPath a:visited {
+  color:#33cc99;
+	text-decoration: none;
+}
+
+#topicPath a:hover {
+  color:#33cc99;
+	text-decoration: none;
+}
+
+#topicPath a:active {
+  color:#33cc99;
+	text-decoration: none;
+}
+
+ 
+body {
+	color: #333333;
+}
+
+
+#Index a:link {
+	color:#176c29;
+	text-decoration: none;
+}
+
+#Index a:visited {
+	color:#999933;
+	text-decoration: none;
+}
+
+#Index a:hover {
+	color:#999933;
+	text-decoration: none;
+}
+
+#Index a:active {
+	color:#999933;
+	text-decoration: none;
+}
+
+
+#staff {
+	margin:0 0 25px 0;
+	font-size:12px;
+	height:9em
+}
+
+#staff dl {
+	margin:0;
+	padding:0;
+}
+
+#staff dt {
+	width:7em;
+	margin:0;
+	text-align:right;
+}
+
+#staff dd {
+	margin:-1.7em 0 0 7em;
+	padding:0;
+	text-align:left;
+}
+
+#Index {
+	margin:0 0 40px 0;
+}
+
+#Index ul.IndexListArea {
+}
+
+#Index li.IndexList {
+	margin:0 0 15px 0;
+	line-height:20px;
+	height:20px;
+}
+
+#Index .IndexTitle {
+	font-size:16px;
+	vertical-align:middle;
+	padding-bottom:16px;
+	padding-right:20px;
+}
+
+#Index .IndexText {
+	font-size:16px;
+	vertical-align:middle;
+	padding-bottom:16px;
+	letter-spacing:normal;
+	margin-left:0;
+}
+
+
+#flash {
+	display:block;
+}
+.flashArea{
+overflow:hidden;
+text-align:center;
+}
+
+#flash .flashText {
+text-align:center;
+display: inline-block;
+*display: inline;
+*zoom: 1;
+}
+
+#flash .flashBanner {
+text-align:center;
+display: inline-block;
+*display: inline;
+*zoom: 1;
+}
+
+*html #shizaiLeftarea,
+*html #shizaiRightarea {
+	font-size:120%;
+}
+*html #shizaiRightarea {
+	margin-right:5px;
+}
+hr {
+	display:none;
+}
+.pagetop a:link {
+	color:#666633;
+}
+.pagetop a:visited {
+	color:#666633;
+}
+.pagetop a:hover {
+	color:#176c29;
+}
+.pagetop {
+	clear:both;
+	text-align:right;
+	margin-top:10px;
+}
+
+/*content.css
+***********************************/
+.title_coaching img{
+display:none;
+}
+.indexContInnerLeft .title_coaching{
+background:url(../images/title_coaching_pc.gif) no-repeat 0 0;
+width:194px;
+height:27px;
+}
+.indexContInnerRight .title_coaching{
+background:url(../images/title_coaching_adv_pc.gif) no-repeat 0 0;
+width:360px;
+height:27px;
+}
+
+/*.footer {
+	background:#eee;
+	font-size: 9px;
+	text-align: center;
+	margin: 10px 6px 0px 0px;
+	padding-top:10px;
+	padding-bottom: 10px;
+}*/
+.footer p{padding-top:5px;}
+.footer{
+	text-align: center;
+	max-width:928px;
+}
+
+}
